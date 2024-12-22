@@ -7,39 +7,34 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header>
-    <h1>Welcome to My Portfolio</h1>
-    <nav>
-      <ul>
-        <li><a href="#about">About Me</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-  
-  <section id="about">
-    <h2>About Me</h2>
-    <p>Hello! I’m <strong>Mukund Ganesh</strong>, a passionate developer skilled in [Your Skills].</p>
-  </section>
-  
-  <section id="projects">
-    <h2>Projects</h2>
-    <div class="project">
-      <h3>Project Title</h3>
-      <p>Description of the project.</p>
-      <a href="https://example.com" target="_blank">View Project</a>
-    </div>
-  </section>
-  
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Email: <a href="mailto:mukund.ganesh2002@gmail.com">mukund.ganesh2002@gmail.com</a></p>
-    <p>LinkedIn: <a href="https://www.linkedin.com/in/mukundganesh/" target="_blank">yourprofile</a></p>
-  </section>
-
-  <footer>
-    <p>&copy; 2024 Your Name. All rights reserved.</p>
-  </footer>
+  <div class="container">
+    <header>
+      <h1>Matt Chapman</h1>
+      <p>Data Scientist with 4+ years of experience in analytics, strategy, and sales.</p>
+      <a href="https://linkedin.com">View my LinkedIn Profile</a>
+    </header>
+    <section class="content">
+      <div class="profile">
+        <img src="profile.jpg" alt="Profile Picture">
+        <p>Data Scientist with 4+ years of experience in analytics, strategy, and sales, and a master's degree in Data Science from Oxford University. Previously at Vodafone, VIMA Group, Ovo Energy, and HSBC.</p>
+      </div>
+      <div class="projects">
+        <h2>Selected projects in data science, machine learning, and NLP</h2>
+        <article>
+          <h3>Deep NLP for hate speech detection</h3>
+          <p>Built a classifier using PyTorch to fine-tune a BERT model.</p>
+          <a href="https://colab.research.google.com">View code on Colab</a>
+        </article>
+        <article>
+          <h3>Examining panic-buying during the first wave of Covid-19</h3>
+          <p>Analyzed mobility data to investigate the extent of panic-buying.</p>
+          <figure>
+            <img src="graph1.png" alt="Panic Buying Analysis">
+            <figcaption>Figure 1: Footfall at pharmacies and grocery stores.</figcaption>
+          </figure>
+        </article>
+      </div>
+    </section>
+  </div>
 </body>
 </html>
